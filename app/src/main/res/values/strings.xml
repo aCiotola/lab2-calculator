@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="title">Loan Calculator</string>
+    <string name="loanAmountLbl">Loan Amount</string>
+    <string name="termLoanLbl">Term of Loan (years)</string>
+    <string name="yealyRateLbl">Yearly Interest Rate</string>
+    <string name="calculateBtn">Calculate</string>
+    <string name="clearBtn">Clear</string>
+    <string name="resultsLbl">Results</string>
+    <string name="monthlyPaymentLbl">Monthly Payment</string>
+    <string name="totalPaymentLbl">Total Payment</string>
+    <string name="totalInterestLbl">Total Interest</string>
+</resources>
