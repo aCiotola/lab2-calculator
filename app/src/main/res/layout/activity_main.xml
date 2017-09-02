@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/title"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:layout_weight="0.04" />
 
     <LinearLayout
@@ -26,14 +26,17 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/loanAmountLbl" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="0dp"
-        android:gravity="right"
         android:layout_weight="0.5"
         android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="number" />
     </LinearLayout>
@@ -46,14 +49,17 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/termLoanLbl" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="0dp"
-        android:gravity="right"
         android:layout_weight="0.5"
         android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="number" />
     </LinearLayout>
@@ -66,14 +72,17 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/yealyRateLbl" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="0dp"
-        android:gravity="right"
         android:layout_weight="0.5"
         android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="number" />
     </LinearLayout>
@@ -101,7 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:layout_weight="0.04"
         android:text="@string/resultsLbl" />
 
@@ -113,6 +122,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/monthlyPaymentLbl" />
 
     <TextView
@@ -120,6 +131,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
         android:text="" />
     </LinearLayout>
 
@@ -131,6 +144,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/totalPaymentLbl" />
 
     <TextView
@@ -138,6 +153,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="" />
     </LinearLayout>
 
@@ -149,12 +166,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="@string/totalInterestLbl" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_weight="0.5"
         android:text="" />
     </LinearLayout>
