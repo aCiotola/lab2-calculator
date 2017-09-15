@@ -10,6 +10,7 @@ package ciotola.ca.lab2_calculator;
    // no default no arg constructor generated if a constructor with args is delcared pmc
    public LoanCalculator ()
    {
+
    }
 
 
